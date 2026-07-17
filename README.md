@@ -13,7 +13,7 @@ This project implements a scalable model-serving gateway built with TypeScript a
 * **Language:** TypeScript / Node.js
 * **Framework:** gRPC (@grpc/grpc-js)
 * **Serialization:** Protocol Buffers (proto-loader)
-* **Architecture:** Event-driven batch processin
+* **Architecture:** Event-driven batch processing
 
 ## Local Setup
 
