@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package inference;
+
+service ModelService {
+  rpc Predict (InferenceRequest) returns (InferenceResponse);
+}
+
+message InferenceRequest {
+  bytes tensor_data = 1;
+}
+
+message InferenceResponse {
+  string status = 1;
+}
